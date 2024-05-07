@@ -2,11 +2,9 @@
 
 ## 运行方式
 
-### 安装 Rust
-
+### 执行命令
 ```bash
-rcli 
+rcli csv -i input.csv -o output.json --header -d ','
+cargo run -- csv -i .\assets\juventus.csv
 ```
-
-### 安装 VSCode 插件
 
